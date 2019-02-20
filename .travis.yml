@@ -4,8 +4,6 @@ jdk:
 
 script: 
   - ant compile
-  - ant compile_tests
-  - ant apply_all
   - ant init_tests
   - ant compile_tests
   - ant run_tests_all
