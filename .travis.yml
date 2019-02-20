@@ -3,6 +3,7 @@ jdk:
   - oraclejdk8
 
 script: 
+  - ant init_all
   - ant compile
   - ant init_tests
   - ant compile_tests
