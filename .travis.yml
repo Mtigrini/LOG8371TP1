@@ -6,5 +6,6 @@ script:
   - ant compile
   - ant compile_tests
   - ant apply_all
-  - ant run_tests_core
+  - ant init_tests
+  - ant compile_tests
   - ant run_tests_all
