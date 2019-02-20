@@ -5,4 +5,5 @@ jdk:
 script: 
   - ant compile
   - ant compile_tests
+  - ant run_tests_core
   - ant run_tests_all
