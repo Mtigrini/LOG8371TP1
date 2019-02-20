@@ -4,4 +4,6 @@ jdk:
   - oraclejdk9
   - openjdk8
 
-script: ant compile
+script: 
+  - ant compile
+  - ant build
